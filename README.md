@@ -4,7 +4,7 @@ A chrome extension based on the script written by the people at [Focus on the Us
 
 ##Purpose
 
-To allow users to modify Google's hardcoded Google+ search results and replace them with real social media results.
+To allow users to modify Google's hardcoded Google+ search results and enhance them by adding information from other social media sites. 
 
 ##Download
 
