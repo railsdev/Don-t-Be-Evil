@@ -1,0 +1,19 @@
+{
+  "name" : "Don't Be Evil",
+  "description" : "Modifies Google's hardcoded Google+ search results and replaces them with real social media results.",
+  "version" : "1.0.0",
+
+  "permissions" : [
+    "*://www.google.com/search?*"
+  ],
+
+  "content_scripts" : [
+    {
+      "matches" : ["*://www.google.com/search*"],
+      "js" : [
+              "mootools-yui-compressed.js",
+              "dontbeevil.js"],
+      "run_at" : "document_idle" 
+    }
+  ]
+}
